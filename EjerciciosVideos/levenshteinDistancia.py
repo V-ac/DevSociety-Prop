@@ -43,4 +43,4 @@ cadena1 = "amor"
 cadena2 = "amar"
 distancia = distancia_Levenshtein(cadena1, cadena2)
 
-print(f"La distancia de Levenshtein entre '{cadena1}' y '{cadena2}' es: {distancia}")
+print(f"La distancia de Levenshtein entre '{cadena1}' y '{cadena2}' es: {distancia}" )
