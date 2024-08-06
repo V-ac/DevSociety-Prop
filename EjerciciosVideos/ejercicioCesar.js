@@ -21,13 +21,13 @@ const getClipherMap = (alaphabet, shift) => {
 const encrypt = (str, shift, alphabet = englishAlphabet) => {
     const cipherMap = getClipherMap(alphabet, shift)
 
-    return str.toLowerCase.split('').map(char => cipherMap[char] || char).join('')
+    return str.toLowerCase().split('').map(char => cipherMap[char] || char).join('')
 }
 
 const dencrypt = (str, shift, alphabet = englishAlphabet) => {
     const cipherMap = getClipherMap(alphabet, -shift)
 
-    return str.toLowerCase.split('').map(char => cipherMap[char] || char).join('')
+    return str.toLowerCase().split('').map(char => cipherMap[char] || char).join('')
 }
 
 const str = 'Hola mundo'
